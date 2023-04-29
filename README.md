@@ -1,0 +1,1 @@
+# Exercises from the Codecademy Front-end Development Course
