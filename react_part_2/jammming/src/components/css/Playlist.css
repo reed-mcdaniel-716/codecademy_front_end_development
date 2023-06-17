@@ -1,0 +1,43 @@
+:root {
+  --jet: #2d2d2aff;
+  --davys-gray: #4c4c47ff;
+  --cool-gray: #848fa5ff;
+  --bittersweet-shimmer: #c14953ff;
+  --pearl: #e5dcc5ff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.playlist_container {
+  border: solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  grid-row: 7fr 1fr;
+}
+
+input {
+  border: none;
+  background-color: var(--pearl);
+  color: var(--davys-gray);
+  border-bottom: 2px solid var(--bittersweet-shimmer);
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+button.playlist_btn {
+  width: 8rem;
+  height: 4rem;
+}

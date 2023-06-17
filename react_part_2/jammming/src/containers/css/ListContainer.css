@@ -1,0 +1,22 @@
+:root {
+  --jet: #2d2d2aff;
+  --davys-gray: #4c4c47ff;
+  --cool-gray: #848fa5ff;
+  --bittersweet-shimmer: #c14953ff;
+  --pearl: #e5dcc5ff;
+}
+
+.list_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  justify-content: center;
+  column-gap: 8rem;
+}
+
+button {
+  background-color: var(--pearl);
+  color: var(--bittersweet-shimmer);
+  border: none;
+  font-weight: bold;
+}

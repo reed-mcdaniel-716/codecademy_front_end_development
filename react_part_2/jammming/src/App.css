@@ -1,0 +1,37 @@
+:root {
+  --jet: #2d2d2aff;
+  --davys-gray: #4c4c47ff;
+  --cool-gray: #848fa5ff;
+  --bittersweet-shimmer: #c14953ff;
+  --pearl: #e5dcc5ff;
+}
+
+*, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  align-items: center;
+  justify-content: center;
+  color: var(--jet);
+  background-color: var(--pearl);
+}
+
+header h1 {
+  display: flex;
+  background-color: var(--bittersweet-shimmer);
+  color: var(--jet);
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  font-size: 2.8rem;
+}
+
+h1 span {
+  color: var(--pearl);
+  font-size: 2.8rem;
+}

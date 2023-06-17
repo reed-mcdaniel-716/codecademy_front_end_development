@@ -1,0 +1,14 @@
+li {
+  list-style-type: none;
+}
+
+.track_list_container {
+  border: solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title {
+  font-size: 1.4rem;
+}

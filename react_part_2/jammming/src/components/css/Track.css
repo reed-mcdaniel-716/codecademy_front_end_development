@@ -1,0 +1,39 @@
+:root {
+  --jet: #2d2d2aff;
+  --davys-gray: #4c4c47ff;
+  --cool-gray: #848fa5ff;
+  --bittersweet-shimmer: #c14953ff;
+  --pearl: #e5dcc5ff;
+}
+
+.track_container {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: solid;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.track_info h1 {
+  font-weight: bolder;
+  color: var(--davys-gray);
+}
+
+.track_info h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.track_container button {
+  max-width: 4rem;
+  max-height: 4rem;
+  font-size: 1.8rem;
+}
