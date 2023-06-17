@@ -10,3 +10,5 @@
 - **react_router_v6_lesson**: completed pre-scaffolded project on using various aspects of React Router v6
 - **react_router_v6_project**: completed pre-scaffolded project on using various aspects of React Router v6 for a pet adoption app
 - **appointment-planner-starting-v18**: completed pre-scaffolded project on using various aspects of React for a contact and appointment creation app
+
+## redux
