@@ -12,3 +12,5 @@
 - **appointment-planner-starting-v18**: completed pre-scaffolded project on using various aspects of React for a contact and appointment creation app
 
 ## redux
+
+- **flashcards-starter**: Quizlet style React + Redux app
