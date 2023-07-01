@@ -8,6 +8,10 @@ const quizzesSlice = createSlice({
   },
   reducers: {
     addQuiz: (state, action) => {
+      console.log(
+        "in quizzesSlice addQuiz with action payload:",
+        action.payload
+      );
       const newQuiz = {
         id: action.payload.id,
         name: action.payload.name,
